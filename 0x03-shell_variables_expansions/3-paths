@@ -1,2 +1,3 @@
 #!/bin/bash
-echo sed "/s/:/\n" $PATH | wc -l
+echo tr ":" "\n" $PATH | wc -l
+
