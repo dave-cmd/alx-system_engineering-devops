@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATGtr ":" "\n" | wc -l
