@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Accolade | sed 's/A/c;s/Z/e/'
+

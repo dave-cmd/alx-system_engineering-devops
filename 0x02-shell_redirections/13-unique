@@ -1,0 +1,3 @@
+#!/bin/bash
+sort 0x02$  namelist2.txt | uniq
+

@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Comicon | sed 's/C//; s/c//'
+

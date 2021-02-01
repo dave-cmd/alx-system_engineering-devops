@@ -1,0 +1,4 @@
+#!/bin/bash
+for dir in .* */; do echo $dir ; tree -L 1 $(pwd)/$dir  | tail -1 ; ls -l $(pwd)/$dir; done
+
+
