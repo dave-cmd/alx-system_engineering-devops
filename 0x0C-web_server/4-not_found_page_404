@@ -16,6 +16,8 @@ printf %s "server {
 
     location /redirect_me {
         return 301 https://www.zaharaschool.com;
+        
+    error_page 404 /error404.html;
     }
 }" > /etc/nginx/sites-available/default
 
